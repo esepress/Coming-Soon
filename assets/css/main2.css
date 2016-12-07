@@ -159,9 +159,6 @@ a.notify-me {
   position: absolute;
 }
 
-.a {
-  padding-top: 20px;
-}
 
 
 /**
@@ -203,13 +200,15 @@ a.notify-me {
  */
 
 #slideshow img {
+  background-size: cover;
     position:absolute;
-    width:800px;
-    height:400px;
+    width:800vh;
+    height: 200vh;
+    /*height:400px;
     top:50%;
-    left:50%;
-    margin-left:-400px;
-    margin-top:-200px;
+    left:50%;*/
+    /*margin-left:-400px;
+    margin-top:-200px;*/
     opacity:0;
     -webkit-transition-property: opacity, -webkit-transform;
     -webkit-transition-duration: 3s, 10s;
