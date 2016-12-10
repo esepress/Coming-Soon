@@ -111,17 +111,8 @@ function addSticky() {
 
 $(window).scroll(function() {
   addSticky();
-});  
+});
 
-
-/*-=-=-=-=-=---=-=--==*/
-
-
-
-
-/**
- * See: http://www.css-101.org/articles/ken-burns_effect/css-transition.php
- */
 
 /**
  * The idea is to cycle through the images to apply the "fx" class to them every n seconds. 
